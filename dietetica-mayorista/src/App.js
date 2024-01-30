@@ -6,13 +6,12 @@ import { Contact } from "./Screens/Contact";
 function App() {
   return (
     <div >
-  
      <Router>
-     <NavBar/>
-     <Routes>
-<Route path="/home" element={<Home/>} />
-<Route path="/contact" element={<Contact/>} />
-     </Routes>
+        <NavBar/>
+            <Routes>
+                <Route path="/home" element={<Home/>} />
+                <Route path="/contact" element={<Contact/>} />
+            </Routes>
      </Router>
     </div>
   );
